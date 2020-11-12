@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Classic Tee</title>
+</head>
+<body>
+    <header class="text-right">
+    
+        <div class="cart-div">
+            <a href="#" class="nav-link" id="cart">
+                <span class="cart-text">My Cart</span>
+                <span class="cart-icon"><i class="fa fa-shopping-cart"></i></span> 
+                <span id="amount">(0)</span>
+            </a>
+            <div id="cart-items">
+            </div>
+          </div>
+
+    </header>
+    
+    <div class="container main">
+        <div class="row py-2">
+            <div class="col-md-6 col-sm-12">
+                <img src="img/classic-tee.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <h3>Classic Tee</h3>
+                <hr>
+                <p id="price">$75.00</p>
+                <hr>
+                <p> Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                </p>
+                <p id="select">SIZE <span id="req">* </span> <span id="selected"></span></p> 
+                <div class="row">
+                    <div class="col-6">
+                        <button type="button" class="sizebtn" id="small">S</button>
+                        <button type="button" class="sizebtn" id="medium">M</button>
+                        <button type="button" class="sizebtn" id="large">L</button>
+                    </div>
+                </div>
+                <button id="addCart" type="button">ADD TO CART</button>
+                <div id="error"></div>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

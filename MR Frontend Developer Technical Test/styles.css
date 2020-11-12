@@ -1,0 +1,150 @@
+@media (max-width: 768px) {
+    header { margin-left: 0vw;  width: 100vw; }
+    .cart-icon { display: inline-block; }
+    .cart-text { display: none; }
+    .cart-div {
+        position: relative;
+        display: inline-block;
+      }
+      
+      #cart-items{
+        display: none;
+        position: absolute;
+        color: black;
+        background-color: white;
+        min-width: 75vw;
+        margin-left: -50vw;
+        z-index: 1;
+      }
+    
+    .cart-div:hover #cart-items {
+        display: block;
+    }
+    
+    .cart-div:hover .nav-link {
+        background-color: white;
+    }
+
+    .sizebtn {
+        padding: 2vw;
+    }
+    hr{
+        display: none;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .cart-div {
+        position: relative;
+        display: inline-block;
+      }
+      
+      #cart-items{
+        display: none;
+        position: absolute;
+        color: black;
+        background-color: white;
+        min-width: 20vw;
+        margin-left: -18vw;
+        z-index: 1;
+      }
+    
+    .cart-div:hover #cart-items {
+        display: block;
+    }
+    
+    .cart-div:hover .nav-link {
+        background-color: white;
+    }
+
+    .sizebtn {
+        padding: 2vh;
+    }
+
+}
+
+
+
+
+.main{
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+}
+
+
+#cart{
+    color: #222222;
+    padding-right: 5vw;
+}
+.cart-icon { 
+    display: none; 
+}
+
+#addCart{
+    background-color: white;
+    border-style: solid;
+    border-color: #222222;
+    color:#222222;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2vh;
+    padding: 2vh;
+
+}
+
+#addCart:hover{
+    background-color: #222222;
+    color:white;
+
+}
+
+#req{
+    color: #C90000;
+    display: inline;
+}
+
+#select{
+    display: inline;
+}
+
+
+.main p{
+    color:  #CCCCCC;
+}
+
+#price{
+    border-color:  #CCCCCC;
+    color:  #222222;
+    font-weight: bold;
+}
+
+header {
+    background-color: #F6F6F7;
+    margin-top: 2vh;
+    margin-left: 10vw;
+    width: 80vw;
+}
+
+.sizebtn{
+    background-color: white;
+    border-style: solid;
+    border-color:  #CCCCCC;
+    color: #CCCCCC;
+    text-align: center;
+    
+}
+
+.sizebtn:focus {
+    border-color: #222222;
+    color: #222222;
+
+}
+
+#error {
+    color: #C90000;
+}
+
+
+
